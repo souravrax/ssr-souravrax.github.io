@@ -1,10 +1,42 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(20, 23, 36);
+  font-family: "Open Sans";
+  font-weight: 900;
 }
 
-body{
+body {
+  background-color: #e0e5ec;
+}
 
-    background-color: white;
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+button {
+    font-size: 1.1em;
+  outline: none;
+  margin: 10px;
+  width: 12vw;
+  height: 7vh;
+  border: none;
+  border-radius: 1000px;
+  background-color: #e0e5ec;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+    -9px -9px 16px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(71, 71, 255);
+  color: white;
 }
